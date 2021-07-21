@@ -1,3 +1,5 @@
+# This is a code along with the code given in the problem statement.
+
 require 'pry'
 
 #This is the groceries hash we'll be passing in to the get_the_min method
@@ -10,4 +12,5 @@ require 'pry'
 
 def get_the_min(groceries)
   #code your solution here!
+  groceries.values.flatten.min
 end
